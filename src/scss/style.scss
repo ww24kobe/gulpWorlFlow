@@ -1,0 +1,14 @@
+$color:red;
+div {
+    ul {
+        background-color: pink;
+        li {
+            a {
+                color: $color;
+                &:hover {
+                    color: red
+                }
+            }
+        }
+    }
+}
